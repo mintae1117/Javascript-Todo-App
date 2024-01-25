@@ -1,3 +1,4 @@
+
 const quotes = [
     {
     quote: 'I never dreamed about success, I worked for it.',
@@ -41,10 +42,13 @@ const quotes = [
     },
     ];
 
+
     const quote = document.querySelector("#quotes span:first-child");
     const author = document.querySelector("#quotes span:last-child");
+    const quotesform = document.querySelector("#quotes");
 
     const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
     quote.innerText = todayQuote.quote;
     author.innerText = todayQuote.author;
+
