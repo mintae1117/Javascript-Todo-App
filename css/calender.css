@@ -9,7 +9,6 @@
   #month {
       display: inline-block;
       position: relative;
-      float: left;
       margin-left: 10px;
       margin-top: 10px;
       margin-bottom: 0px;
@@ -24,7 +23,6 @@
   .icon1 {
       display: inline-block;
       position: relative;
-      float: right;
       margin-right: 10px;
       width: 20px;
       margin-top: 23px;
