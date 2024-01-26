@@ -2,11 +2,12 @@
   .calendarBox {
     background-color: black;
     border-radius: 10px;
-      color: white;
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      opacity: 60%;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 60%;
+    height: 340px;
   }
   
   #month {
@@ -18,6 +19,7 @@
   }
   
   #month h3 {
+    color: tomato;
       font-size: 30px;
       font-weight: normal;
       margin: 0px;
@@ -47,7 +49,7 @@
   
   /* 오늘 날짜 배경색 지정 */
   .calendarBox #today {
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: tomato;
       border-radius: 10%;
       color: white;
   }
