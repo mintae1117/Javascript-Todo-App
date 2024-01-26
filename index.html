@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/calender.css">
+    <link rel="stylesheet" href="css/clock.css">
     <title>js practice 01</title>
 </head>
 <body>
@@ -16,23 +17,22 @@
         placeholder="what is your name?"/>
         <button>Log In</button>
     </form>
-    <h1 id="greeting" class="hidden"></h1>
-
-    <div id="showiflogin" class="">
-        <h2 id="clock">00:00</h2>
-        <form id="todo-form">
-            <input type="text" placeholder="Write a todo and press enter." required/>
-        </form>
-        <ul id="todo-list"></ul>
-        <button type="button" id="allClear" onclick="allClearList()">모두 삭제</button>
-        <div id="quotes">
-            <span></span><br>
-            <span></span>
-        </div>
-        <div id="weather">
-            <span></span><br>
-            <span></span>
-        </div>
+    <h1 id="greeting" class="hidden greet"></h1>
+    <div class="clockbox">
+        <h3 id="clock" class="myclock">00:00</h3>
+    </div>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a todo and press enter." required/>
+    </form>
+    <ul id="todo-list"></ul>
+    <button type="button" id="allClear" onclick="allClearList()">모두 삭제</button>
+    <div id="quotes">
+        <span></span><br>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span><br>
+        <span></span>
     </div>
 
     <div class="calendarBox">

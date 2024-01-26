@@ -1,0 +1,18 @@
+
+.clockbox{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 260px;
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    opacity: 60%;
+    text-align: center;
+    line-height: 10px;
+}
+.myclock{
+    color: white;
+    font-size: 50px;
+}

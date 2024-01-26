@@ -10,7 +10,7 @@
     right:0px;
     bottom:0px;
     z-index: -1;
-    opacity:70%;
+    opacity:100%;
 }
 body {
     position: flex;
@@ -21,10 +21,8 @@ body {
     margin: 0 auto;
     background-color: black;
 }  
-h1 {
-    margin-left: auto;
-    margin-right: auto;
+.greet {
     text-align: center;
     color: white;
+    font-size: 50px;
 }
-  

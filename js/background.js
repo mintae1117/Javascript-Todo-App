@@ -1,4 +1,4 @@
-const images = ["001.jpg","002.jpg","003.jpg"];
+const images = ["001.png","002.png","003.png"];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 

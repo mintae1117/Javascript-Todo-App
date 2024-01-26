@@ -1,33 +1,28 @@
   /* 달력 */
   .calendarBox {
+    background-color: black;
+    border-radius: 10px;
       color: white;
       position: fixed;
-      bottom: 10px;
-      right: 10px;
+      bottom: 20px;
+      right: 20px;
+      opacity: 60%;
   }
   
   #month {
       display: inline-block;
       position: relative;
-      margin-left: 10px;
+      margin-left: 15px;
       margin-top: 10px;
-      margin-bottom: 0px;
+      margin-bottom: 10px;
   }
   
-  #month h2 {
-      font-size: 20px;
+  #month h3 {
+      font-size: 30px;
       font-weight: normal;
       margin: 0px;
   }
   
-  .icon1 {
-      display: inline-block;
-      position: relative;
-      margin-right: 10px;
-      width: 20px;
-      margin-top: 23px;
-      margin-bottom: 20px;
-  }
   
   .calendarBox table {
       border-collapse: collapse;
@@ -45,7 +40,7 @@
   
   .calendarBox td {
       border: none;
-      height: 40px;
+      height: 30px;
       padding: 8px;
       text-align: center;
   }
@@ -54,5 +49,5 @@
   .calendarBox #today {
       background-color: rgba(255, 255, 255, 0.5);
       border-radius: 10%;
-      color: black;
+      color: white;
   }
