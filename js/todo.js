@@ -59,7 +59,8 @@ function allClearList(e){
         if(toDoList.innerText==''){                      //목록칸이 비어있다면
             alert("삭제할 목록이 없습니다");              //삭제할 목록이 없다는 경고창뜨기
         }else{                                         //삭제할 목록이 있다면
-            toDoList.innerText='';                       //전체 삭제
+            toDoList.innerText='';                     //전체 삭제
+            localStorage.removeItem("todokey");
         }
     }else{                                      //취소메시지가 false(no)일때
         return false;                           //삭제 취소

@@ -1,0 +1,40 @@
+input {
+    background: 0;
+    border: 0;
+    outline: none;
+    width: 80vw;
+    max-width: 600px;
+    font-size: 2em;
+    transition: padding 0.3s 0.2s ease;
+  }
+  input::placeholder{
+    color: black;
+  }
+  input:focus {
+    padding-bottom: 5px;
+  }
+  input:focus + .line:after {
+    transform: scaleX(1);
+  }
+  .field {
+    position: relative;
+    right: 100px;
+    width: 550px;
+  }
+  .field .line {
+    width: 110%;
+    height: 3px;
+    position: absolute;
+    bottom: -8px;
+    background: white;
+  }
+  .field .line:after {
+    content: " ";
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 3px;
+    transform: scalex(0);
+    transition: transform 0.3s ease;
+    background: black;
+  }

@@ -10,8 +10,21 @@
     right:0px;
     bottom:0px;
     z-index: -1;
-    opacity:100%;
+    opacity: 90%;
 }
+.logo{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    font-size: 25px;
+}
+a:hover {
+    color : black;
+    opacity: 60%;
+}
+a:visited {
+    color : black;
+  }
 body {
     position: flex;
     justify-content: center;
@@ -19,10 +32,11 @@ body {
     height: 800px;
     width: 390px;
     margin: 0 auto;
-    background-color: black;
+    background-color: white;
 }  
 .greet {
     text-align: center;
-    color: white;
-    font-size: 50px;
+    color: black;
+    font-size: 40px;
 }
+

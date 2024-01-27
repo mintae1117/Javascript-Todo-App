@@ -45,7 +45,6 @@ const quotes = [
 
     const quote = document.querySelector("#quotes span:first-child");
     const author = document.querySelector("#quotes span:last-child");
-    const quotesform = document.querySelector("#quotes");
 
     const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 

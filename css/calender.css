@@ -1,12 +1,11 @@
   /* 달력 */
   .calendarBox {
-    background-color: black;
+    background-color: rgba(4, 4, 4, 0.6);
     border-radius: 10px;
     color: white;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 60%;
     height: 340px;
   }
   

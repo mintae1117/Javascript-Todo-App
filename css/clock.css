@@ -1,14 +1,13 @@
 
 .clockbox{
-    background-color: black;
+    background-color: rgba(4, 4, 4, 0.6);
     color: white;
     border-radius: 20px;
     width: 260px;
     height: 100px;
     position: fixed;
-    top: 40px;
+    top: 30px;
     right: 40px;
-    opacity: 60%;
     text-align: center;
     line-height: 10px;
 }
