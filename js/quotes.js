@@ -1,6 +1,10 @@
 
 const quotes = [
     {
+    quote: '귀여운 스누피가 짱입니다!',
+    author: 'mintae Kim'
+    },
+    {
     quote: 'I never dreamed about success, I worked for it.',
     author: 'Estee Lauder'
     },
