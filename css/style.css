@@ -21,10 +21,13 @@ body {
     height: 800px;
     width: 390px;
     margin: 0 auto;
-    background-image: url(/img/001.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+.bgimg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
 }
 .greet {
     text-align: center;
