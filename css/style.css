@@ -34,4 +34,44 @@ body {
     color: black;
     font-size: 40px;
 }
-
+.quoteform{
+    background-color: rgba(4, 4, 4, 0.6);
+    border-radius: 10px;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    padding-top: 0.01rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+.quoteform h3{
+    text-align: center;
+}
+.quoteform span{
+    text-align: center;
+}
+.quoteform img{
+    position: absolute;
+    left: 20px;
+    top: -30px;
+}
+.weather{
+    background-color: rgba(4, 4, 4, 0.6);
+    border-radius: 10px;
+    color: white;
+    position: fixed;
+    top: 160px;
+    right: 30px;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    padding-top: 0.01rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+}

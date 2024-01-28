@@ -2,56 +2,43 @@
 const quotes = [
     {
     quote: '귀여운 스누피가 짱입니다!',
-    author: 'mintae Kim'
     },
     {
-    quote: 'I never dreamed about success, I worked for it.',
-    author: 'Estee Lauder'
+    quote: 'When life knocks you down, roll over and look at the stars.',
     },
     {
-    quote: 'Do not try to be original, just try to be good.',
-    author: 'Paul Rand'
+    quote: 'To me, the ugliest sight in the world is an empty dog dish!',
     },
     {
-    quote: 'Do not be afraid to give up the good to go for the great.',
-    author: 'John D. Rockefeller'
+    quote: 'You can kick me, you can yell at me, you can chase me, you can insult me―but don’t interfere with my food-life.',
     },
     {
-    quote: 'If you cannot fly then run. If you cannot run, then walk. And if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.',
-    author: 'Martin Luther King Jr.'
+    quote: 'Keep looking up―that’s the secret of life.',
     },
     {
-    quote: 'Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.',
-    author: 'Thomas Edison'
+    quote: 'Are you upset little friend? Have you been lying awake worrying? Well, don’t worry―I’m here. The floodwaters will recede, the famine will end, the sun will shine tomorrow, and I will always be here to take care of you.',
     },
     {
-    quote: 'The fastest way to change yourself is to hang out with people who are already the way you want to be.',
-    author: 'REid Hoffman'
+    quote: 'Every now and then, I feel that my existence is justified.',
     },
     {
-    quote: 'Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations.',
-    author: 'Tim O Reilly'
+    quote: 'Never stress on what you can’t control and never worry about what isn’t yours.',
     },
     {
-    quote: 'Some people dream of success, while other people get up every morning and make it happen.',
-    author: 'Wayne Huizenga'
+    quote: 'Be yourself. No one can say you’re doing it wrong.',
     },
     {
     quote: 'The only thing worse than starting something and falling.. is not starting something.',
-    author: 'SEth Godin'
     },
     {
-    quote: 'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
-    author: 'Jim Rohn'
+    quote: 'Sometimes when I get up in the morning, I feel very peculiar. I feel like I’ve just got to bite a cat! I feel like if I don’t bite a cat before sundown, I’ll go crazy! But then I just take a deep breath and forget about it. That’s what is known as real maturity.',
     },
     ];
 
 
-    const quote = document.querySelector("#quotes span:first-child");
-    const author = document.querySelector("#quotes span:last-child");
+    const quote = document.querySelector("#quotes span");
 
     const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
     quote.innerText = todayQuote.quote;
-    author.innerText = todayQuote.author;
 
