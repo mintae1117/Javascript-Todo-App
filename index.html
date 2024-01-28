@@ -238,19 +238,26 @@
     </a>
 
     <div class="greetingbox">
-        <form class="hidden" id="login-form">
+        <form class="hidden field" id="login-form">
             <input 
             required maxlength="15"
             type="text" 
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='What is your name?'"
             placeholder="What is your name?"/>
-            <button>Log In</button>
+            <div class="line"></div>
+            <button class="loginbtn">Log In</button>
         </form>
         <img id="greetingsimg" src="img/snoopy05.png" style="width: 50px;" class="hidden"><h1 id="greeting" class="hidden greet" style="display: inline;"></h1>
     </div>
     
     <div class="todobox">
         <form id="todo-form" class="field">
-            <input type="text" placeholder=" Write your plans here and press enter!" required/>
+            <input type="text" 
+            placeholder=" Write your plans here and press enter!"
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='Write your plans here and press enter!'"
+            required/>
             <div class="line"></div>
         </form>
         <ul id="todo-list"></ul>
@@ -267,6 +274,7 @@
         <div class="ytiframe">
             <iframe width="195" height="100" src="https://www.youtube.com/embed/wUHncG3VwPw?si=IQ0IOY5UkBR3A2Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <img class="linksnoopy" src="./img/link.png">
     </div>
 
     <div id="quotes" class="quoteform">
@@ -288,6 +296,7 @@
     <div class="calendarBox">
         <div id="month"></div>
         <div id="calendar"></div>
+        <img class="calendersnoopy" src="./img/snoopy.png">
     </div>
     
     <img id="bg" class="bgimg">

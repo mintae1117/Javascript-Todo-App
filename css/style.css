@@ -4,7 +4,7 @@
 .logo{
     position: fixed;
     left: 10px;
-    top: 2px;
+    top: 20px;
     font-size: 25px;
 }
 a:visited {
@@ -78,7 +78,7 @@ body {
     border-radius: 10px;
     color: white;
     position: fixed;
-    top: 150px;
+    top: 100px;
     left: 20px;
     height: auto;
     width: auto;
@@ -95,12 +95,18 @@ body {
 .quicklinkform a:visited{
     color : white;
 }
+.linksnoopy{
+    width: 80px;
+    position: absolute;
+    left: 170px;
+    bottom: -10px;
+}
 .ytiframe{
     background-color: rgba(4, 4, 4, 0.6);
     border-radius: 10px;
     color: white;
     position: absolute;
-    top: 310px;
+    top: 320px;
     left: 0px;
     height: auto;
     width: auto;
@@ -109,21 +115,35 @@ body {
 }
 .greetingbox{
     position: relative;
-    top: 150px;
+    top: 200px;
 }
 .todobox{
     position: relative;
-    top: 200px;
+    top: 250px;
 }
 #todo-list {
+    background-color: rgba(4, 4, 4, 0.6);
     list-style-image: url(/img/ul.png);
     font-size: 30px;
+    word-break:break-all;
+    color: white;
+    border-radius: 10px;
 }
 #todo-list button{
+    position: absolute;
+    right: 10px;
     border: 0px;
     background-color: transparent;
     font-size: 25px;
+    margin-left: 5px;
 }
 #allClear{
+    position: absolute;
+    right: 0px;
     margin-bottom: 150px;
+}
+.loginbtn{
+    position: absolute;
+    right: -50px;
+    bottom: 10px;
 }

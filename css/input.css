@@ -6,9 +6,12 @@
     max-width: 600px;
     font-size: 2em;
     transition: padding 0.3s 0.2s ease;
+    text-align: center;
+    caret-color: white;
   }
 .field input::placeholder{
     color: black;
+    text-align: center;
   }
   .field input:focus {
     padding-bottom: 5px;

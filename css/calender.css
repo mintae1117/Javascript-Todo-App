@@ -53,3 +53,9 @@
       border-radius: 50%;
       color: white;
   }
+  .calendersnoopy{
+    width: 100px;
+    position: absolute;
+    top: -30px;
+    right: 10px;
+  }
