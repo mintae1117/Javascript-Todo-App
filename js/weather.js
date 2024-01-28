@@ -10,7 +10,7 @@ function onGeoOk(position){
         const city = document.querySelector("#s2");
         const temperature = document.querySelector("#s3");
         weather.innerText = `Currently ${data.weather[0].main}.`
-        temperature.innerText = `temperature is ${data.main.temp}℃.`
+        temperature.innerText = `Temperature is ${data.main.temp}℃.`
         city.innerText = `You live in ${data.name}.`
     });
 }
