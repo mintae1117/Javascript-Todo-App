@@ -1,7 +1,7 @@
 
 const quotes = [
     {
-    quote: '귀여운 스누피가 짱입니다! -사이트 제작자 김민태-',
+    quote: '귀여운 스누피가 짱입니다! -제작자 김민태-',
     },
     {
     quote: 'When life knocks you down, roll over and look at the stars.',
