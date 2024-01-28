@@ -107,3 +107,23 @@ body {
     max-width: 400px;
     padding: 1rem;
 }
+.greetingbox{
+    position: relative;
+    top: 150px;
+}
+.todobox{
+    position: relative;
+    top: 200px;
+}
+#todo-list {
+    list-style-image: url(/img/ul.png);
+    font-size: 30px;
+}
+#todo-list button{
+    border: 0px;
+    background-color: transparent;
+    font-size: 25px;
+}
+#allClear{
+    margin-bottom: 150px;
+}

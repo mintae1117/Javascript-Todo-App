@@ -236,21 +236,27 @@
             <h2 style="display: inline; color: black;">Snoopy</h2><img src="img/snoopy03.png" style="width: 40px;">.planner
         </div>
     </a>
-    <form class="hidden" id="login-form">
-        <input 
-        required maxlength="15"
-        type="text" 
-        placeholder="What is your name?"/>
-        <button>Log In</button>
-    </form>
-    <img id="greetingsimg" src="img/snoopy05.png" style="width: 50px;" class="hidden"><h1 id="greeting" class="hidden greet" style="display: inline;"></h1>
-    <form id="todo-form" class="field">
-        <input type="text" placeholder=" Write your plans here and press enter!" required/>
-        <div class="line"></div>
-    </form>
-    <ul id="todo-list"></ul>
-    <button type="button" id="allClear" onclick="allClearList()">Delete all</button>
 
+    <div class="greetingbox">
+        <form class="hidden" id="login-form">
+            <input 
+            required maxlength="15"
+            type="text" 
+            placeholder="What is your name?"/>
+            <button>Log In</button>
+        </form>
+        <img id="greetingsimg" src="img/snoopy05.png" style="width: 50px;" class="hidden"><h1 id="greeting" class="hidden greet" style="display: inline;"></h1>
+    </div>
+    
+    <div class="todobox">
+        <form id="todo-form" class="field">
+            <input type="text" placeholder=" Write your plans here and press enter!" required/>
+            <div class="line"></div>
+        </form>
+        <ul id="todo-list"></ul>
+        <button type="button" id="allClear" onclick="allClearList()">Delete all</button>    
+    </div>
+    
     <div class="quicklinkform">
         <h3 style="font-size: 25px;">Quick <b style="color: tomato; font-size: larger;">links!</b></h3>
         <a style="font-size: 25px;" href="https://github.com/mintae1117" target="_blank"><img src="/img/github.png" style="width: 25px;"> github</a><br>
