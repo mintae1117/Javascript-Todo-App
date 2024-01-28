@@ -1,4 +1,4 @@
-input {
+.field input {
     background: 0;
     border: 0;
     outline: none;
@@ -7,13 +7,13 @@ input {
     font-size: 2em;
     transition: padding 0.3s 0.2s ease;
   }
-  input::placeholder{
+.field input::placeholder{
     color: black;
   }
-  input:focus {
+  .field input:focus {
     padding-bottom: 5px;
   }
-  input:focus + .line:after {
+  .field input:focus + .line:after {
     transform: scaleX(1);
   }
   .field {
