@@ -7,10 +7,6 @@
     top: 2px;
     font-size: 25px;
 }
-a:hover {
-    color : black;
-    opacity: 60%;
-}
 a:visited {
     color : black;
 }
