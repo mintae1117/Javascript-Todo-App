@@ -1,6 +1,6 @@
 @font-face {
     font-family : 'digital-clock';
-    src : url(/fonts/digital-7\ \(italic\).ttf)
+    src : url(/fonts/digital.ttf)
 }
 .clockbox{
     border-radius: 10px;
