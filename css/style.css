@@ -1,17 +1,6 @@
 .hidden {
     display : none;
 }
-.bgimg {
-    position:fixed;
-    width:100%;
-    height:100%;
-    left: 0px;
-    top: 0px;
-    right:0px;
-    bottom:0px;
-    z-index: -1;
-    opacity: 90%;
-}
 .logo{
     position: fixed;
     left: 10px;
@@ -32,8 +21,11 @@ body {
     height: 800px;
     width: 390px;
     margin: 0 auto;
-    background-color: white;
-}  
+    background-image: url(/img/001.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .greet {
     text-align: center;
     color: black;

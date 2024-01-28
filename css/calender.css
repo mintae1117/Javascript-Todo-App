@@ -49,6 +49,6 @@
   /* 오늘 날짜 배경색 지정 */
   .calendarBox #today {
       background-color: tomato;
-      border-radius: 10%;
+      border-radius: 50%;
       color: white;
   }

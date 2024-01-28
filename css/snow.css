@@ -1,10 +1,10 @@
 .snow {
   position: fixed;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   background: white;
   border-radius: 50%;
-  right: 1750px;
+  right: 1730px;
   top: 0px;
 }
 .snow:nth-child(1) {
