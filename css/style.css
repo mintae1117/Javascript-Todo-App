@@ -126,7 +126,7 @@ body {
 }
 #todo-list {
     background-color: rgba(4, 4, 4, 0.6);
-    list-style-image: url(/img/ul.png);
+    list-style-image: url(../img/ul.png);
     font-size: 30px;
     word-break:break-all;
     color: white;
