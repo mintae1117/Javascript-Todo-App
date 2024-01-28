@@ -119,6 +119,9 @@ body {
 }
 .todobox{
     position: relative;
+    width: auto;
+    height: auto;
+    padding-bottom: 100px;
     top: 250px;
 }
 #todo-list {
@@ -140,7 +143,6 @@ body {
 #allClear{
     position: absolute;
     right: 0px;
-    margin-bottom: 150px;
 }
 .loginbtn{
     position: absolute;
