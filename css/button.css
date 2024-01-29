@@ -1,0 +1,27 @@
+
+  .custom-btn {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(251, 249, 249, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .btn-11 {
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .btn-11:hover {
+     background: #000;
+    color: #fff;
+  }
+  .loginbtn{
+    position: absolute;
+    right: -50px;
+    top: 5px;
+}
+  

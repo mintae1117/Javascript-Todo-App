@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/clock.css">
     <link rel="stylesheet" href="css/input.css">
     <link rel="stylesheet" href="css/snow.css">
+    <link rel="stylesheet" href="css/button.css">
     <title>js practice 01</title>
 </head>
 <body>
@@ -240,28 +241,31 @@
     <div class="greetingbox">
         <form class="hidden field" id="login-form">
             <input 
+            style="font-size: 40px;"
             required maxlength="15"
             type="text" 
             onfocus="this.placeholder=''"
             onblur="this.placeholder='What is your name?'"
             placeholder="What is your name?"/>
-            <div class="line"></div>
-            <button class="loginbtn">Log In</button>
+            <div class="line01"></div>
+            <button class="loginbtn custom-btn btn-11">Log In</button>
         </form>
-        <img id="greetingsimg" src="img/snoopy05.png" style="width: 50px;" class="hidden"><h1 id="greeting" class="hidden greet" style="display: inline;"></h1>
+        <div class="greetingment">
+            <img id="greetingsimg" src="img/snoopy05.png" style="width: 60px;" class="hidden"><h1 id="greeting" class="hidden greet" style="display: inline;"></h1>
+        </div>
     </div>
     
-    <div class="todobox">
+    <div class="todobox hidden" id="todo-box">
         <form id="todo-form" class="field">
             <input type="text" 
             placeholder=" Write your plans here and press enter!"
             onfocus="this.placeholder=''"
             onblur="this.placeholder='Write your plans here and press enter!'"
             required/>
-            <div class="line"></div>
+            <div class="linetwo"></div>
         </form>
         <ul id="todo-list"></ul>
-        <button type="button" id="allClear" onclick="allClearList()">Delete all</button>    
+        <button class="custom-btn btn-11" type="button" id="allClear" onclick="allClearList()">Delete all</button>    
     </div>
     
     <div class="quicklinkform">

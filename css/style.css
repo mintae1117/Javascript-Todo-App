@@ -27,9 +27,8 @@ body {
     height: 100%;
 }
 .greet {
-    text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 50px;
 }
 .quoteform{
     background-color: rgba(4, 4, 4, 0.6);
@@ -115,7 +114,14 @@ body {
 }
 .greetingbox{
     position: relative;
-    top: 200px;
+    top: 180px;
+    align-items: center;
+}
+.greetingment{
+    position: relative;
+    right: 150px;
+    width: 700px;
+    text-align: center;
 }
 .todobox{
     position: relative;
@@ -125,16 +131,19 @@ body {
     top: 250px;
 }
 #todo-list {
-    background-color: rgba(4, 4, 4, 0.6);
+    position: relative;
+    right: 90px;
+    background-color: rgb(251, 249, 249, 0.9);
     list-style-image: url(../img/ul.png);
+    width: 140%;
     font-size: 30px;
     word-break:break-all;
-    color: white;
+    color: black;
     border-radius: 10px;
 }
 #todo-list button{
     position: absolute;
-    right: 10px;
+    right: 5px;
     border: 0px;
     background-color: transparent;
     font-size: 25px;
@@ -142,10 +151,10 @@ body {
 }
 #allClear{
     position: absolute;
-    right: 0px;
+    right: -120px;
+    margin-top: -10px;
 }
-.loginbtn{
-    position: absolute;
-    right: -50px;
-    bottom: 10px;
+#login-form{
+    position: relative;
+    top: 180px;
 }
