@@ -171,6 +171,40 @@ body {
     right: 10px;
     top: 165px;
 }
+.onoffsnoopy{
+    position: absolute;
+    width: 50px;
+    bottom: 5px;
+    right: 105px;
+}
+
+.speech-bubble {
+    position: absolute;
+    color: black;
+    right: 140px;
+    bottom: 70px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 50px;
+  }
+   
+  .speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -10px;
+    margin-bottom: -10px;
+  }
+  
+
 @font-face {
     font-family: 'WandohopeR';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff') format('woff');
