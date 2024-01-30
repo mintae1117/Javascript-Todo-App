@@ -68,7 +68,6 @@ function printCalendar(y, m) {
     calendar += "<th>SUN</th>";
     calendar += "</tr>";
 
-    console.log(nowD);
     
     var dNum = 1;
     //이중 for문을 이용해 달력 테이블을 생성
