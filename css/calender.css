@@ -8,7 +8,7 @@
     right: 20px;
     height: auto;
     padding: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   
   #month {
@@ -36,15 +36,15 @@
   .calendarBox th {
       border: none;
       height: 10px;
-      padding: 7px;
       font-weight: normal;
       text-align: center;
   }
   
   .calendarBox td {
       border: none;
-      height: 10px;
-      padding: 7px;
+      height: 30px;
+      width: 30px;
+      padding: 6px;
       text-align: center;
   }
   
