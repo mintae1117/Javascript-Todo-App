@@ -70,7 +70,7 @@ function printCalendar(y, m) {
 
     
     var dNum = 1;
-    //이중 for문을 이용해 달력 테이블을 생성
+    //달력 테이블을 생성
     for (var i = 1; i <= row; i++) {//행 생성 (tr 태그 생성)
         calendar += "<tr>";
 
